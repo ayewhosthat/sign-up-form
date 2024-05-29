@@ -1,0 +1,18 @@
+.left, .right, .signup-content {
+    display: flex;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.left {
+    flex: 0.4;
+    background-image: url("assets/digital-solacism-4gaVmJtC4cc-unsplash.jpg");
+    height: 100vh;
+}
+
+.right {
+    flex: 0.6;
+}
