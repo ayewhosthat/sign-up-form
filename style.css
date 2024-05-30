@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Arial';
+    display: flex;
 }
 
 .left, .right, .signup-content {
@@ -21,7 +22,6 @@ body {
     background-position: center center;
     height: 100vh;
     position: relative;
-    display: flex;
     align-items: center;
 }
 
@@ -67,20 +67,24 @@ body {
     flex-wrap: wrap;
 }
 
-input {
-    display: inline-block;
-}
-
 .button-div {
-    width: 100px;
-    height: 32px;;
+    width: 20%;
+    height: 20%;
 }
 
 .create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
     background-color: #596D48;
     color: white;
+    font-weight: bold;
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 10px;
+    padding: 8px 16px;
+    /* use min/max/clamp to make sure items don't shrink past a certain point */
 }
 
 .prompt {
@@ -100,7 +104,7 @@ input {
 }
 
 .user-inputs {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
