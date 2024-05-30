@@ -1,9 +1,14 @@
-.left, .right, .signup-content {
-    display: flex;
-    margin: 0;
+@font-face {
+    font-family: norse-bold;
+    src: url("assets/Norse-Bold.otf");
 }
 
 body {
+    margin: 0;
+}
+
+.left, .right, .signup-content {
+    display: flex;
     margin: 0;
 }
 
@@ -28,6 +33,7 @@ body {
 
 .company-text {
     color: white;
+    font-family: norse-bold;
 }
 
 .right {
