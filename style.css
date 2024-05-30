@@ -23,7 +23,7 @@ body {
 }
 
 .left-banner {
-    height: 64px;
+    height: 100px;
     width: 100%;
     background-color: rgba(0,0,0, 50%);
     display: flex;
@@ -31,9 +31,15 @@ body {
     justify-content: center;
 }
 
+.logo {
+    height: 85%;
+}
+
 .company-text {
     color: white;
     font-family: norse-bold;
+    font-size: 
+    /* change font size later */
 }
 
 .right {
@@ -48,4 +54,16 @@ body {
 
 .right-A {
     background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
+}
+
+.button-div {
+    width: 100px;
+    height: 32px;;
+}
+
+.create-account {
+    background-color: #596D48;
+    color: white;
+    width: 100%;
+    height: auto;
 }
