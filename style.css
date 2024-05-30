@@ -49,18 +49,26 @@ body {
     flex: 0.6;
     display: flex;
     flex-direction: column;
+    padding: 2%;
+    background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
 }
 
 .right-A, .right-B, .right-C {
     flex: 1;
 }
 
-.right-A {
-    background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
-}
-
 .appeal-container {
     width: 80%;
+}
+
+.input-container {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+input {
+    display: inline-block;
 }
 
 .button-div {
@@ -84,4 +92,33 @@ body {
 .sign-in-text {
     color: steelblue;
     text-decoration-line: none;
+}
+
+.encouragement {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.user-inputs {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    display: inline-block;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 75%;
+    font-weight: bold
+}
+
+input {
+    border-radius: 5px;
 }
