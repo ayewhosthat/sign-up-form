@@ -9,7 +9,10 @@ body {
 
 .left {
     flex: 0.4;
-    background-image: url("assets/digital-solacism-4gaVmJtC4cc-unsplash.jpg");
+    background-image: url("assets/josh-hild-cvi752mY6eA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
 }
 
