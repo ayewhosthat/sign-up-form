@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    font-family: 'Arial';
 }
 
 .left, .right, .signup-content {
@@ -20,10 +21,12 @@ body {
     background-position: center center;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .left-banner {
-    height: 100px;
+    height: 25%;
     width: 100%;
     background-color: rgba(0,0,0, 50%);
     display: flex;
@@ -38,7 +41,7 @@ body {
 .company-text {
     color: white;
     font-family: norse-bold;
-    font-size: 
+    font-size: 20cqh;
     /* change font size later */
 }
 
@@ -56,6 +59,10 @@ body {
     background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
 }
 
+.appeal-container {
+    width: 80%;
+}
+
 .button-div {
     width: 100px;
     height: 32px;;
@@ -66,4 +73,15 @@ body {
     color: white;
     width: 100%;
     height: auto;
+}
+
+.prompt {
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sign-in-text {
+    color: steelblue;
+    text-decoration-line: none;
 }
