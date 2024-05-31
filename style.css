@@ -103,14 +103,9 @@ body {
     font-size: 1.5rem;
 }
 
-.user-inputs {
-    width: 50%;
+form {
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.input-field {
-    display: inline-block;
 }
 
 label, input {
@@ -125,4 +120,13 @@ label {
 
 input {
     border-radius: 5px;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-left {
+    margin-right: 10%;
 }
