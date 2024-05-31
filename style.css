@@ -9,6 +9,10 @@ body {
     display: flex;
 }
 
+.signup-content {
+    width: 100vw;
+}
+
 .left, .right, .signup-content {
     display: flex;
     margin: 0;
@@ -47,6 +51,7 @@ body {
 
 .right {
     flex: 0.6;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 2%;
