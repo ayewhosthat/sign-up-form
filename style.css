@@ -58,18 +58,33 @@ body {
     background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
 }
 
-.right-A, .right-B, .right-C {
-    flex: 1;
+.right-A, .right-C {
+    flex: 0.7;
+}
+
+.right-B {
+    flex: 1.3;
 }
 
 .appeal-container {
     width: 80%;
 }
 
+.appeal-to-customer {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .input-container {
     height: 100%;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 
 .button-div {
@@ -106,6 +121,8 @@ body {
 .encouragement {
     font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: -16px;
+    margin-top: -16px;
 }
 
 form {
