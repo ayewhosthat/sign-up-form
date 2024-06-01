@@ -3,30 +3,48 @@
     src: url("assets/Norse-Bold.otf");
 }
 
+html {
+    overflow-y: scroll; 
+    overflow-x: scroll;
+    height: auto;
+}
+
 body {
-    margin: 0;
-    font-family: 'Arial';
     display: flex;
+    height: auto%;
+    font-family: 'Arial';
+    margin: 0;
 }
 
 .signup-content {
-    width: 100vw;
+    display: flex;
+    width: auto;
+    height: auto;
 }
 
 .left, .right, .signup-content {
     display: flex;
-    margin: 0;
 }
 
 .left {
     flex: 0.4;
+    width: auto;
+    height: 100%;
+    flex-direction: column;
     background-image: url("assets/josh-hild-cvi752mY6eA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
-    position: relative;
     align-items: center;
+}
+
+.right {
+    flex: 0.6;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 2%;
+    background-image: linear-gradient(180deg, rgb(24, 26, 29), rgb(129, 9, 9));
 }
 
 .left-banner {
@@ -36,6 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -47,15 +66,6 @@ body {
     font-family: norse-bold;
     font-size: 20cqh;
     /* change font size later */
-}
-
-.right {
-    flex: 0.6;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    background-image: linear-gradient(180deg, rgb(157, 203, 240), rgb(255, 255, 255));
 }
 
 .right-A {
@@ -73,6 +83,8 @@ body {
 .appeal-to-customer {
     font-size: 1.2rem;
     font-weight: bold;
+    color: white;   
+    width: clamp(45ch, 50%, 75ch);
 }
 
 .input-container {
@@ -111,7 +123,7 @@ body {
 }
 
 .prompt {
-    color: black;
+    color: white;
     font-weight: bold;
     width: 100%;
 }
@@ -126,6 +138,7 @@ body {
     font-size: 1.5rem;
     margin-bottom: -16px;
     margin-top: -16px;
+    color: white;
 }
 
 form {
@@ -142,11 +155,12 @@ label, input {
 
 label {
     font-size: 75%;
-    font-weight: bold
+    font-weight: bold;
+    color: white;
 }
 
 input {
-    border-radius: 2px;
+    border-radius: 5px;
     border: 3px solid #E5E7EB;
 }
 
