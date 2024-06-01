@@ -29,47 +29,48 @@
                 <div class="encouragement">
                     <p>Let's do this!</p>
                 </div>
-                <div class="user-inputs">
-                    <form action="">
-                        <!-- insert 6 inputs -->
+                <form action="">
+                    <!-- insert 6 inputs -->
+                    <div class="user-inputs">
                         <div class="form-left">
                             <div class="input-field">
                                 <label for="first_name">FIRST NAME</label>
-                                <input type="text" id="first_name" name="first_name">
+                                <input type="text" id="first_name" name="first_name" required>
                             </div>
                             <div class="input-field">
                                 <label for="email">EMAIL</label>
-                                <input type="text" id="email" name="user_email">
+                                <input type="text" id="email" name="user_email" required>
                             </div>
                             <div class="input-field">
                                 <label for="password">PASSWORD</label>
-                                <input type="text" id="password" name="user_password">
+                                <input type="password" id="password" name="user_password" required>
                             </div>
                         </div>
                         <div class="form-right">
                             <div class="input-field">
                                 <label for="last_name">LAST NAME</label>
-                                <input type="text" id="last_name" name="last_name">
+                                <input type="text" id="last_name" name="last_name" required>
                             </div>
                             <div class="input-field">
-                                <label for="phone_number">PHONE NUMBER</label>
-                                <input type="text" id="phone_number" name="user_password">
+                                <label for="phone_number" class="password">PHONE NUMBER</label>
+                                <input type="text" id="phone_number" name="user_password" required>
                             </div>
                             <div class="input-field">
                                 <label for="verify_password">CONFIRM PASSWORD</label>
-                                <input type="text" id="verify_password" name="user_password_verify_attempt">
+                                <input type="password" id="verify_password" name="user_password_verify_attempt" required>
                             </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-            <div class="right-C">
-                <div class="button-div">
-                    <button class="create-account">
-                        Create account
-                    </button>                 
-                </div>
-                <p class="prompt">Already have an account? <a class="sign-in-text" href="#">Sign in</a></p>
+                        </div>
+                        <div class="button-div">
+                            <button type="submit" class="create-account">
+                                Create account
+                            </button>
+                        </div>
+                        <div class="prompt-div">
+                            <p class="prompt">Already have an account? <a class="sign-in-text" href="https://www.google.com/" target="_blank">Sign in</a></p>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
