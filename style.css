@@ -11,7 +11,7 @@ html {
 
 body {
     display: flex;
-    height: auto%;
+    height: auto;
     font-family: 'Arial';
     margin: 0;
 }
@@ -44,7 +44,7 @@ body {
     height: auto;
     flex-direction: column;
     padding: 2%;
-    background-image: linear-gradient(180deg, rgb(24, 26, 29), rgb(129, 9, 9));
+    /* background-image: linear-gradient(180deg, rgb(24, 26, 29), rgb(129, 9, 9)); */
 }
 
 .left-banner {
@@ -55,6 +55,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.image-credit {
+    position: fixed;
+    bottom: 5%;
+}
+
+.image-credit p, a {
+    color: white;
+    font-weight: bold;
 }
 
 .logo {
@@ -83,7 +93,7 @@ body {
 .appeal-to-customer {
     font-size: 1.2rem;
     font-weight: bold;
-    color: white;   
+    color: black;   
     width: clamp(45ch, 50%, 75ch);
 }
 
@@ -123,7 +133,7 @@ body {
 }
 
 .prompt {
-    color: white;
+    color: black;
     font-weight: bold;
     width: 100%;
 }
@@ -156,7 +166,7 @@ label, input {
 label {
     font-size: 75%;
     font-weight: bold;
-    color: white;
+    color: rgb(143, 8, 8);
 }
 
 input {
