@@ -7,7 +7,7 @@ This was the most frustrating and challenging of the three major projects up unt
 - CSS styling as always
 
 ## Possible areas for improvement
-- There is a little white strip at the bottom of the page when viewing in full-sized window, but it disappears when the window is resized to be smaller. This does not affect the user experience, but it is something to keep in mind in terms of 'next time around'.
+- There is a little white strip at the bottom of the page when viewing in full-sized window, but it disappears when the window is resized to be smaller. I did try my best to fix this, but was unsuccessful. This does not affect the user experience, but it is something to keep in mind in terms of 'next time around'.
 - The style.css file is not 'optimized', as there are certainly areas where code is repeated/not organized by section
 
 ## Credits
